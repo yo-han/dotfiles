@@ -1,40 +1,40 @@
 # Local/private config goes in the include
 [include]
-        path = ~/.gitconfig.local
+		path = ~/.gitconfig.local
 [hub]
-        protocol = ssh
+		protocol = ssh
 [alias]
-        co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributors = !$ZSH/bin/git-rank-contributors
-        count   = !git shortlog -sn
-        s = status -s
-        l = log --pretty=oneline -n 20 --graph --abbrev-commit
-        tags = tag -l
-        branches = branch -a
-        remotes = remote -v
+		co = checkout
+		promote = !$ZSH/bin/git-promote
+		wtf     = !$ZSH/bin/git-wtf
+		rank-contributors = !$ZSH/bin/git-rank-contributors
+		count   = !git shortlog -sn
+		s = status -s
+		l = log --pretty=oneline -n 20 --graph --abbrev-commit
+		tags = tag -l
+		branches = branch -a
+		remotes = remote -v
 [color]
-        diff = auto
-        status = auto
-        branch = auto
-        ui = true
+		diff = auto
+		status = auto
+		branch = auto
+		ui = true
 [core]
-        excludesfile = ~/.gitignore
-        editor = vim
-        whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+		excludesfile = ~/.gitignore
+		editor = subl -n -w
+		whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 [apply]
-        whitespace = nowarn
-        # whitespace = fix #used this in my old dotfiles
+		whitespace = nowarn
+		# whitespace = fix #used this in my old dotfiles
 [mergetool]
-        keepBackup = false
+		keepBackup = false
 [difftool]
-        prompt = false
+		prompt = false
 [help]
-        autocorrect = 1
+		autocorrect = 1
 [push]
-        # See `git help config` (search for push.default)
-        # for more information on different options of the below setting.
-        #
-        # Setting to git 2.0 default to suppress warning message
-        default = simple
+		# See `git help config` (search for push.default)
+		# for more information on different options of the below setting.
+		#
+		# Setting to git 2.0 default to suppress warning message
+		default = simple

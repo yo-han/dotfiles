@@ -1,2 +1,3 @@
 alias d='docker $*'
-alias d-c='docker-compose $*'
+alias dcom='docker-compose $*'
+alias dmac='docker-machine $*'

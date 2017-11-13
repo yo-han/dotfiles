@@ -1,43 +1,34 @@
-cask_args appdir: '/Applications'
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "homebrew/php"
+tap "caskroom/drivers"
+tap "caskroom/versions"
+tap "caskroom/cask"
 
-tap 'homebrew/bundle'
-tap 'puma/puma'
-
-brew 'ack'
-brew 'coreutils'
-brew 'go'
+brew "coreutils"
 brew 'grc'
-brew 'imagemagick'
-brew 'jp2a'
-brew 'jq'
-brew 'libcaca', args: ['with-imlib2']
-brew 'libgit2'
-brew 'openssl'
-brew 'node'
-brew 'readline'
-brew 'postgresql'
-brew 'puma/puma/puma-dev'
-brew 'ruby-build'
+brew 'sshrc'
 brew 'rbenv'
-brew 'roundup'
-brew 'spaceman-diff'
-brew 'spark'
-brew 'unrar'
-brew 'wget'
-brew 'yarn'
-brew 'youtube-dl'
+brew 'node'
+brew 'hub'
+brew 'ruby-build'
 
-cask '1password'
-cask 'adium'
-cask 'atom'
-cask 'firefox'
-cask 'garmin-express'
-cask 'google-chrome'
-cask 'handbrake'
-cask 'mapbox-studio'
-cask 'seashore'
-cask 'slack'
-cask 'steam'
-cask 'transmission'
-cask 'tunnelbear'
-cask 'vlc'
+brew 'php71'
+brew 'composer'
+
+brew 'grunt-cli'
+
+cask "1password"
+cask "dropbox"
+cask "evernote"
+cask "google-chrome"
+cask "iterm2"
+cask "sequel-pro"
+cask "sketch"
+cask "slack"
+cask "spectacle"
+cask "sublime-text"
+cask "caskroom/drivers/sonos"
+cask "docker"
+cask "google-cloud-sdk"
+

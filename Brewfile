@@ -12,11 +12,12 @@ brew 'rbenv'
 brew 'node'
 brew 'hub'
 brew 'ruby-build'
+brew 'grunt-cli'
 
 brew 'php71'
 brew 'composer'
 
-brew 'grunt-cli'
+brew 'mas'
 
 cask "1password"
 cask "dropbox"
@@ -32,3 +33,4 @@ cask "caskroom/drivers/sonos"
 cask "docker"
 cask "google-cloud-sdk"
 
+mas 'Trello', id: 1278508951

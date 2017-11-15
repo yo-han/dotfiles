@@ -7,12 +7,14 @@ tap "caskroom/cask"
 
 brew "coreutils"
 brew 'grc'
-brew 'sshrc'
-brew 'rbenv'
-brew 'node'
-brew 'hub'
-brew 'ruby-build'
 brew 'grunt-cli'
+brew 'hub'
+brew 'mysql'
+brew 'node'
+brew 'rbenv'
+brew 'ruby-build'
+brew 'sshrc'
+brew 'yarn'
 
 brew 'php71'
 brew 'composer'
@@ -28,6 +30,7 @@ cask "sequel-pro"
 cask "sketch"
 cask "slack"
 cask "spectacle"
+cask "spotify"
 cask "sublime-text"
 cask "caskroom/drivers/sonos"
 cask "docker"

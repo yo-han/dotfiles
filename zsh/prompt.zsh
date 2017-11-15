@@ -78,12 +78,12 @@ username(){
 
 find_docker_machine() {
   if [[ "$DOCKER_MACHINE_NAME" != "" ]]; then
-    echo "┊🐳 ┊"$DOCKER_MACHINE_NAME"┊"
+    echo "┊ 🐳  "$DOCKER_MACHINE_NAME"┊"
   fi
 }
 
 # export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n› '
-export PROMPT=$'\n$(username)$(directory_name) $(find_docker_machine)$(git_dirty)$(need_push)\n%{$(iterm2_prompt_mark)%} '
+export PROMPT=$'\n$(username)$(directory_name)$(find_docker_machine) $(git_dirty)$(need_push)\n%{$(iterm2_prompt_mark)%} '
 set_prompt () {
   export RPROMPT="%{$fg_bright[green]%}%{$reset_color%}"
 }

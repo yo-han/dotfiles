@@ -16,8 +16,10 @@ defaults write com.apple.Finder FXPreferredViewStyle clmv
 # Show the ~/Library folder.
 chflags nohidden ~/Library
 
-# Set the Finder prefs for showing a few different volumes on the Desktop.
+# Show icons for hard drives, servers, and removable media on the desktop
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Set up Safari for development.
@@ -27,6 +29,13 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+# Show favorites bar
+defaults write com.apple.Safari ShowFavoritesBar -bool true
+defaults write com.apple.Safari "ShowFavoritesBar-v2" -bool true
+
+# Safari opens with: A new window
+defaults write com.apple.Safari AlwaysRestoreSessionAtLaunch -bool true
 
 # Enable continuous spellchecking
 defaults write com.apple.Safari WebContinuousSpellCheckingEnabled -bool true

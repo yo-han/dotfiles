@@ -65,4 +65,8 @@ if [[ "$OSTYPE" == darwin* ]] && [[ -n "$ITERM_SESSION_ID" ]] ; then
     _iterm2_command "6;1;bg;*;default"
   }
 
+  function tab_title() {
+    echo -ne "\e]1;$1\a"
+  }
+
 fi

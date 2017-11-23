@@ -1,6 +1,7 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/php"
+tap "homebrew/science"
 tap "caskroom/drivers"
 tap "caskroom/versions"
 tap "caskroom/cask"
@@ -16,24 +17,32 @@ brew 'ruby-build'
 brew 'sshrc'
 brew 'yarn'
 
+brew 'matplotlib'
+
 brew 'php71'
 brew 'composer'
 
 brew 'mas'
 
 cask "1password"
+cask "dash"
+cask "discord"
+cask "docker"
 cask "dropbox"
+cask "etcher"
 cask "evernote"
 cask "google-chrome"
+cask "google-cloud-sdk"
 cask "iterm2"
+cask "qgis"
 cask "sequel-pro"
 cask "sketch"
 cask "slack"
+cask "sonos"
 cask "spectacle"
 cask "spotify"
 cask "sublime-text"
-cask "caskroom/drivers/sonos"
-cask "docker"
-cask "google-cloud-sdk"
+cask "transmit"
+cask "vanilla"
 
 mas 'Trello', id: 1278508951

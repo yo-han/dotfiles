@@ -13,6 +13,15 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 # Always open everything in Finder's list view. This is important.
 defaults write com.apple.Finder FXPreferredViewStyle clmv
 
+# Show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
+
+# New window points to home
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
+
+# Avoid creating .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
 # Show the ~/Library folder.
 chflags nohidden ~/Library
 

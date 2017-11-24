@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Quick shortcut to 'bundle exec'.
+#
+# USAGE:
+#
+#   $ be <command>
+#
+bundle exec "${1:-.}"

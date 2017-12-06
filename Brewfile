@@ -5,6 +5,7 @@ tap "homebrew/science"
 tap "caskroom/drivers"
 tap "caskroom/versions"
 tap "caskroom/cask"
+tap "tomanthony/brews"
 
 brew "coreutils"
 brew 'grc'
@@ -16,6 +17,7 @@ brew 'rbenv'
 brew 'ruby-build'
 brew 'sshrc'
 brew 'yarn'
+brew 'itermocil'
 
 brew 'matplotlib'
 
@@ -49,7 +51,6 @@ cask "kitematic"
 cask "oversight"
 cask "private-internet-access"
 cask "telegram-desktop"
-cask "github"
 
 mas 'Trello', id: 1278508951
 mas '2STP Companion', id: 1055307502

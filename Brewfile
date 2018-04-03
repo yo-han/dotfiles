@@ -52,6 +52,7 @@ cask "oversight"
 cask "private-internet-access"
 cask "telegram-desktop"
 cask "visual-studio-code"
+cask "authy"
 
 mas 'Trello', id: 1278508951
 mas '2STP Companion', id: 1055307502

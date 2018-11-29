@@ -54,11 +54,9 @@ cask "telegram-desktop"
 cask "visual-studio-code"
 
 mas 'Trello', id: 1278508951
-mas '2STP Companion', id: 1055307502
 mas 'Tweetbot', id: 557168941
 mas 'Spark', id: 1176895641
 mas 'Bear', id: 1091189122
-mas 'LightUp', id: 803176492
 mas 'Pixelmator', id: 407963104
 mas 'Unclutter', id: 577085396
 mas 'ScreenSharingMenulet', id: 578078659

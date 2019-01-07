@@ -18,6 +18,7 @@ brew 'ruby-build'
 brew 'sshrc'
 brew 'yarn'
 brew 'itermocil'
+brew 'webpack'
 
 brew 'matplotlib'
 

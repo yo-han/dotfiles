@@ -19,6 +19,7 @@ brew 'sshrc'
 brew 'yarn'
 brew 'itermocil'
 brew 'webpack'
+brew 'sshfs'
 
 brew 'matplotlib'
 

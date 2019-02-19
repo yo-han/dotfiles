@@ -21,7 +21,7 @@
 		ui = true
 [core]
 		excludesfile = ~/.gitignore
-	editor = nano -w
+		editor = code --wait
 		whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 [apply]
 		whitespace = nowarn
@@ -45,7 +45,7 @@
 	process = git-lfs filter-process
 [user]
 	name = Yo-han
-	email = johankuijt@gmail.com
+	email = j.kuijt@wintersport.nl
 [pull]
 	rebase = true
 [guitool "Pull with Rebase"]

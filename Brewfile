@@ -41,6 +41,9 @@ cask "oversight"
 cask "private-internet-access"
 cask "visual-studio-code"
 cask "sonos"
+cask "bettertouchtool"
+cask "macmediakeyforwarder"
+
 
 mas 'Trello', id: 1278508951
 mas 'Tweetbot', id: 1384080005

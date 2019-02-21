@@ -1,0 +1,1 @@
+alias bb='PATH=$(npm bin):$PATH;'

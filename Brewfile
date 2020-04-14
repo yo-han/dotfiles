@@ -12,20 +12,13 @@ brew 'hub'
 brew 'mysql'
 brew 'node'
 brew 'rbenv'
-brew 'ruby-build'
-brew 'sshrc'
 brew 'itermocil'
 brew 'git-flow-avh'
 
-brew 'webpack'
-brew 'sshfs'
-
 brew 'mas'
 
-cask "1password"
 cask "dash"
 cask "docker"
-cask "dropbox"
 cask "google-chrome"
 cask "iterm2"
 cask "sequel-pro"
@@ -38,9 +31,7 @@ cask "bartender"
 cask "charles"
 cask "kitematic"
 cask "oversight"
-cask "private-internet-access"
 cask "visual-studio-code"
-cask "sonos"
 cask "bettertouchtool"
 cask "macmediakeyforwarder"
 
